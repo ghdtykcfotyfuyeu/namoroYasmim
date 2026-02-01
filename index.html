@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Tenho algo pra te dizer 💜</title>
+
+<!-- PWA -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#0b0f2a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="particles" id="particles"></div>
+
+<div class="container fade">
+  <h2>Assiste até o final 💜</h2>
+
+  <video id="video" autoplay muted playsinline controls>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <button id="pedido" onclick="enviarPedido()">💍 Fazer o pedido</button>
+  <p id="status"></p>
+</div>
+
+<!-- JS -->
+<script src="scripts.js"></script>
+
+</body>
+</html>
