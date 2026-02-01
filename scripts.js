@@ -9,8 +9,8 @@ for (let i = 0; i < 25; i++) {
 }
 
 /* TELEGRAM */
-const BOT_TOKEN = "SEU_TOKEN_AQUI";
-const CHAT_ID = "SEU_CHAT_ID_AQUI";
+const BOT_TOKEN = "8195483182:AAG_I3r1C9D_EcQ5-lU8XcnrHLJDtZeeVa0";
+const CHAT_ID = "5096847391";
 
 /* Controle para botão único */
 let pedidoEnviado = false;
